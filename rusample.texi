@@ -1,0 +1,68 @@
+\input texinfo
+@include russian.itexi
+@settitle Пример инструкции 1.0
+
+@copying
+Короткий пример полного файла Texinfo на русском языке.
+
+Copyright @copyright{} 2017 Sergei Golovan <sgolovan@gmail.com>
+@end copying
+
+@titlepage
+@title Пример названия
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@c Output the table of the contents at the beginning.
+@contents
+
+@ifnottex
+@node Top
+@top Пример GNU
+
+This manual is for GNU Sample
+(version @value{VERSION}, @value{UPDATED}).
+@end ifnottex
+
+@menu
+* Первая глава::         Первая глава --- единственная глава в этом примере.
+* Предметный указатель:: Полный предметный указатель.
+@end menu
+
+@node Первая глава
+@chapter Первая глава
+
+@cindex chapter, one
+@cindex глава, первая
+
+Это первая глава.
+@cindex элемент указателя, ещё один
+@cindex элемент указателя, ура
+@cindex альфа
+@cindex Альф
+@cindex бета
+@cindex Бет
+@cindex Елка, не ёлка
+@cindex Ёлка, не елка
+@cindex Ёжик, не ежик
+@cindex Ежик, не ёжик
+
+Здесь идёт нумерованный перечень.
+
+@enumerate
+@item
+This is the first item. Кириллица Αντίθετα με αυτό που θεωρεί η πλειοψηφία.
+
+@item
+This is the second item.
+@end enumerate
+
+
+@node Предметный указатель
+@unnumbered Предметный указатель
+
+@printindex cp
+
+@bye
