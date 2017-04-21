@@ -18,7 +18,7 @@ A weekend project which implements support for Russian language in GNU Texinfo
       \input texinfo
       @include russian.itexi
 
-* Use **LuaLaTeX** to actually build the PDF document from the source, and use
+* Use **LuaTeX** to actually build the PDF document from the source, and use
   the supplied **rutexindex** script to postprocess the index files (it takes
   care about sorting Russian words):
 
