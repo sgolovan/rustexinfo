@@ -12,8 +12,8 @@ A weekend project which implements support for Russian language in GNU Texinfo
 
 * Use the UTF-8 encoding for your Texinfo document.
 
-* Put the following as the very first lines to ypur Texinfo
-  source:
+* Put the following as the very first lines to your Texinfo
+  source file:
 
       \input texinfo
       @include russian.itexi
