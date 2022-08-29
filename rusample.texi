@@ -5,7 +5,7 @@
 @copying
 Короткий пример полного файла Texinfo на русском языке.
 
-Copyright @copyright{} 2017 Sergei Golovan <sgolovan@gmail.com>
+Copyright @copyright{} 2017 Sergei Golovan <sgolovan@@gmail.com>
 @end copying
 
 @titlepage
