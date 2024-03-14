@@ -31,5 +31,5 @@ A weekend project which implements support for Russian language in GNU Texinfo
   It's done via the `luaotfload` package, hence **LuaTeX** is a requirement.
 
 * Second, the new language `@russian` is created and the hyphenation patterns
-  for it are loaded (another reason why the LuaTeX is used, as it can load
+  for it are loaded (another reason why the LuaTeX engine is used, as it can load
   hyphenation patterns dynamically).
