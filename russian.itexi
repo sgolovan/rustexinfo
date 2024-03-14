@@ -3,12 +3,9 @@
 @c russian.itexi
 @c
 @c
-@c Cyrillic support for texinfo, using UTF-8 input encoding and LH fonts,
-@c with all the restrictions for non-CM fonts (this is, no kerning and no
-@c hyphenation).
-@c
-@c For outline fonts, we also use the cm-super family; the setup is the same
-@c as with the EC fonts except that the prefix is not `ec' but `la'.
+@c Support for Russian language for texinfo, using UTF-8 input encoding and
+@c Computer Modern Unicode fonts, with LuaTeX engine. Kerning and hyphenation
+@c is supported.
 
 @tex
 \catcode`\@=12
@@ -323,7 +320,7 @@
 \gdef\putwordShortTOC{Краткое оглавление}
 \gdef\putwordTOC{Оглавление}
 %
-%% Месяцы используются только в родительном падеже (см. ниже today)
+%% Months are used in genitive case only (see \today below)
 \gdef\putwordMJan{января}
 \gdef\putwordMFeb{февраля}
 \gdef\putwordMMar{марта}
